@@ -16,12 +16,16 @@ p {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 section {
     background-color: rgb(245, 245, 245);
 }
 
 .title {
-    font-size: 120px;
+    font-size: 76px;
     margin-bottom: 12px;
     text-align: left;
     line-height: 1;
@@ -51,9 +55,27 @@ LANDING PAGE
 }
 
 .header__para {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 2;
     max-width: 450px;
+}
+
+.social__list {
+    margin-top: 16px;
+    display: flex;
+}
+
+.social__link {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 6px;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 
@@ -88,7 +110,6 @@ nav {
 }
 
 .nav__link--anchor {
-    text-decoration: none;
     font-size: 16px;
     color: #242424;
     font-weight: 700px;
