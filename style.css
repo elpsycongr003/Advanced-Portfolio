@@ -213,3 +213,14 @@ nav {
 .project__img {
     width: 100%
 }
+
+.project__wrapper {
+    position: relative;
+}
+
+.project__description {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50%);
+}
