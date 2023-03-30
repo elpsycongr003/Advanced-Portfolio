@@ -15,6 +15,17 @@ section {
     background-color: rgb(245, 245, 245);
 }
 
+.title {
+    font-size: 120px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+}
+
+.red {
+    color: #ff0000 !important;
+}
+
 /* 
 
 LANDING PAGE 
