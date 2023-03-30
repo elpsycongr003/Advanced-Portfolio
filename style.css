@@ -223,4 +223,6 @@ nav {
     top: 50%;
     left: 90px;
     transform: translateY(-50%);
+    color: #fff;
+    max-width: 550px;
 }
