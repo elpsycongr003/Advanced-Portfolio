@@ -244,7 +244,16 @@ nav {
     font-size: 40px;
 }
 
+.project__description--sub-title {
+    margin-top: 8px;
+}
+
 .project__description--link {
     color: #fff;
+    font-size: 20px;
+    margin-right: 16px;
+}
 
+.project__description--para {
+    margin: 16px 0;
 }
