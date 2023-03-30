@@ -209,3 +209,7 @@ nav {
     font-size: 36px;
     margin-bottom: 60px;
 }
+
+.project__img {
+    width: 100%
+}
