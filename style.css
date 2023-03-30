@@ -104,6 +104,9 @@ LANDING PAGE
     border: none;
     background-color: #242424;
     color: #fff;
+    position:absolute;
+    bottom: 32px;
+    right: 40px;
 }
 
 /* 
