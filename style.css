@@ -299,6 +299,13 @@ footer {
     height: 70px;
 }
 
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer__social--link,
 .footer__copyright {
     color: #fff;
