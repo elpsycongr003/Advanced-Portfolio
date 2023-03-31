@@ -304,6 +304,7 @@ footer {
     max-width: 500px;
     display: flex;
     justify-content: space-around;
+    margin: 20px 0;
 }
 
 .footer__social--link,
