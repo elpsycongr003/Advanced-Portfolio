@@ -278,6 +278,10 @@ nav {
     color: #fff;
 }
 
+.modal__title {
+    font-size: 26px;
+}
+
 /* 
 
     PROJECTS
