@@ -249,12 +249,18 @@ nav {
 
 .modal__half {
     width: 50%;
+    padding: 40px 72px;
 }
 
 .modal__about {
     background-color: rgb(245, 245, 245);
     display: flex;
     flex-direction: column;
+}
+
+.model__languages {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .modal__contact {
