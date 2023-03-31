@@ -285,3 +285,7 @@ footer {
     background-color: #242424;
     display: flex;
 }
+
+.footer__container {
+    margin: 0 auto;
+}
