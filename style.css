@@ -286,3 +286,8 @@ footer {
     background-color: #242424;
     display: flex;
 }
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+}
