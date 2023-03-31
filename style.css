@@ -298,3 +298,8 @@ footer {
     width: 70px;
     height: 70px;
 }
+
+.footer__social--link,
+.footer__copyright {
+    color: #fff;
+}
