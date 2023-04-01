@@ -40,6 +40,11 @@ input, textarea {
     height: 40px;
 }
 
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
 label {
     font-size: 14px;
     max-width: 1100px;
