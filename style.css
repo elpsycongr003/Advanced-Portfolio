@@ -340,6 +340,17 @@ nav {
     margin-bottom: 20px;
 }
 
+.form__submit {
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    color: #fff;
+    font-weight: 700;
+    max-width: 240px;
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 20px;
+}
+
 /* 
 
     PROJECTS
