@@ -2,7 +2,17 @@
 // service_rooke27
 // 8-Rnubess4qCcjjdy
 let isModalOpen = false;
-toggleContrast
+let contrastToggle = false;
+
+function toggleContrast() {
+  contrastToggle = !contrastToggle;
+  if (contrastToggle) {
+    document.body.classList += " dark-theme";
+  }
+  else {
+    document.body.classList.remove("dark-theme")
+  }
+}
 
 function contact(event) {
   event.preventDefault();
