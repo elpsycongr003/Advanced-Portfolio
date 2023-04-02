@@ -63,12 +63,6 @@ textarea:focus {
   border-color: #ff0000;
 }
 
-.modal--open {
-    z-index: 60;
-    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
-    visibility: visible;
-}
-
 .container {
   padding: 50px 0;
   width: 100%;
@@ -287,6 +281,12 @@ nav {
   overflow: hidden;
   display: flex;
   visibility: hidden;
+}
+
+.modal--open .modal {
+    z-index: 60;
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+    visibility: visible;
 }
 
 .modal__half {
