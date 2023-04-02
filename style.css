@@ -229,9 +229,11 @@ LANDING PAGE
   border: none;
   background-color: #242424;
   color: #fff;
-  position: absolute;
+  position: fixed;
   bottom: 32px;
   right: 40px;
+  z-index: 100;
+  box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.35);
 }
 
 .scroll {
