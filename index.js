@@ -13,6 +13,9 @@ function contact(event) {
     // ).then(() => {
     //     console.log('this worked')
     // })
+    const loading = document.querySelector('.modal__overlay--loading');
+    const success = document.querySelector('.modal__overlay--success');
+    
     setTimeout(() => {
         console.log('it worked2')
     }, 500);
