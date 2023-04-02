@@ -704,3 +704,37 @@ footer {
 }
 
 /* Small phones */
+@media (max-width: 480px) {
+    .title {
+        font-size: 32px;
+    }
+    .header__para {
+        font-size: 14px;
+    }
+    .nav__link:first-child {
+        display: none;
+    }
+    .project__description--para {
+        display: none;
+    }
+    .project__description {
+        left: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .project__description--sub-title {
+        margin-bottom: 8px;
+    }
+    .project__description--title {
+        font-size: 24px;
+    }
+    .modal__half {
+        padding: 40px;
+    }
+    .modal__exit {
+        font-size: 18px;
+        right: 16px;
+        top: 16px;
+    }
+}
