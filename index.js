@@ -4,14 +4,16 @@
 
 function contact(event) {
     event.preventDefault();
-    emailjs
-    .sendForm(
-        'service_rooke27',
-        'template_8wem99i',
-        event.target,
-        '8-Rnubess4qCcjjdy'
-    ).then(() => {
-        console.log('this worked')
-    })
-    
+    // emailjs
+    // .sendForm(
+    //     'service_rooke27',
+    //     'template_8wem99i',
+    //     event.target,
+    //     '8-Rnubess4qCcjjdy'
+    // ).then(() => {
+    //     console.log('this worked')
+    // })
+    setTimeout(() => {
+        console.log('it worked2')
+    }, 500);
 }
