@@ -6,6 +6,7 @@ function contact(event) {
     event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading');
     const success = document.querySelector('.modal__overlay--success');
+    loading.classList += " modal__overlay--visible";
 
     emailjs
     .sendForm(
@@ -14,7 +15,6 @@ function contact(event) {
         event.target,
         '8-Rnubess4qCcjjdy'
     ).then(() => {
-        throw new Error("error");
         loading.classList.remove("modal__overlay--visible");
         success.classList += " modal__overlay--visible";
     }).catch(() => {
@@ -23,10 +23,4 @@ function contact(event) {
             "The email service is temporarily unavailable. Please contact me directly at garciadss100@gmail.com"
         );
     })
-
-    loading.classList += " modal__overlay--visible" 
-    setTimeout(() => {
-
-        console.log('it worked2')
-    }, 1000);
 }
