@@ -26,6 +26,7 @@ button {
 
 section {
   background-color: rgb(245, 245, 245);
+  transition: all 300ms ease;
 }
 
 input,
@@ -151,6 +152,28 @@ nav,
 .dark-theme .header__para
 {
     color: #fff;
+}
+
+.dark-theme section {
+    background-color: #242424;
+}
+
+.dark-theme #personal-logo {
+    filter: none;
+}
+
+.dark-theme .scroll__icon {
+    border-color: #fff;
+}
+
+.dark-theme .scroll__icon:after,
+.dark-theme .link__hover-effect--black:after {
+    background-color: #fff;
+}
+
+.dark-theme .mail__btn {
+    background-color: #fff;
+    color: #242424;
 }
 
 /* 
