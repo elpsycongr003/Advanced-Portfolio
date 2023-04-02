@@ -679,3 +679,9 @@ footer {
     top: 80vh;
     left: 80vh;
 }
+/* Small phones, tablets, large smart phones */
+@media (max-width: 760px) {
+    .title {
+        font-size: 48px;
+    }
+}
