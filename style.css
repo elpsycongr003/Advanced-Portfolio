@@ -395,6 +395,10 @@ nav {
 
 .modal__overlay--success {
     background-color: #4bb543;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 28px;
 }
 
 .fa-spinner {
